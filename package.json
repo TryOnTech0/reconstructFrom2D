@@ -1,0 +1,18 @@
+{
+  "name": "3d-model-processor",
+  "version": "1.0.0",
+  "description": "3D model texture mapping processor with MongoDB watcher",
+  "main": "watcher.js",
+  "scripts": {
+    "start": "node watcher.js",
+    "dev": "node watcher.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.0.0",
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "keywords": ["3d", "blender", "mongodb", "texture-mapping"],
+  "author": "Your Name",
+  "license": "MIT"
+}
